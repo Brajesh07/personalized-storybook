@@ -1,0 +1,144 @@
+{
+  "stories": {
+    "0-2": {
+      "universal": [
+        {
+          "title": "Peek-a-Boo Adventure",
+          "content": "Once upon a time, little {name} loved to play peek-a-boo with mommy and daddy. Every time they said \"Where’s {name}?\" {name} would pop out with a giggle!",
+          "pages": 4,
+          "illustrations": ["peek1", "peek2", "peek3", "peek4"]
+        }
+      ],
+      "boy": [
+        {
+          "title": "Little Boy Blue",
+          "content": "{name} was a brave little boy who loved to help the animals on the farm. He blew his horn gently to call the sheep back home.",
+          "pages": 4,
+          "illustrations": ["boy1", "boy2", "boy3", "boy4"]
+        }
+      ],
+      "girl": [
+        {
+          "title": "Mary’s Little Lamb",
+          "content": "{name} had a little lamb whose fleece was white as snow. Wherever {name} went, the lamb was sure to go, following with soft little footsteps.",
+          "pages": 4,
+          "illustrations": ["girl1", "girl2", "girl3", "girl4"]
+        }
+      ]
+    },
+    "2-4": {
+      "universal": [
+        {
+          "title": "The Three Little Pigs",
+          "content": "Once {name} met three little pigs who needed help building houses. Together they built straw, stick, and brick homes, learning teamwork and perseverance.",
+          "pages": 8,
+          "illustrations": ["pig1", "pig2", "pig3", "pig4", "pig5", "pig6", "pig7", "pig8"]
+        }
+      ]
+    },
+    "4-6": {
+      "universal": [
+        {
+          "title": "The Magical Paintbrush",
+          "content": "{name} discovered a paintbrush that brought drawings to life. When {name} painted a butterfly, it fluttered right off the page and danced in the garden.",
+          "pages": 6,
+          "illustrations": ["paint1", "paint2", "paint3", "paint4", "paint5", "paint6"]
+        }
+      ],
+      "boy": [
+        {
+          "title": "Captain {name} and the Sea Monster",
+          "content": "Brave Captain {name} sailed the seven seas. When a mischievous sea monster blocked the way, {name} used clever thinking to calm it with a song.",
+          "pages": 6,
+          "illustrations": ["sea1", "sea2", "sea3", "sea4", "sea5", "sea6"]
+        }
+      ],
+      "girl": [
+        {
+          "title": "{name} and the Flower Fairies",
+          "content": "In a secret meadow, {name} found tiny fairies who tended to flowers. Together, they painted petals in rainbow colors and sang gentle lullabies.",
+          "pages": 6,
+          "illustrations": ["fairy1", "fairy2", "fairy3", "fairy4", "fairy5", "fairy6"]
+        }
+      ]
+    },
+    "6-8": {
+      "universal": [
+        {
+          "title": "The Lost Star",
+          "content": "One night, {name} spotted a star falling from the sky. On a magical journey, {name} helped the star find its way back home among the constellations.",
+          "pages": 10,
+          "illustrations": ["star1", "star2", "star3", "star4", "star5", "star6", "star7", "star8", "star9", "star10"]
+        }
+      ],
+      "boy": [
+        {
+          "title": "{name} and the Dragon’s Puzzle",
+          "content": "{name} ventured into the dragon’s cave to solve a tricky riddle. With courage and wit, {name} unlocked the puzzle and became a hero of the valley.",
+          "pages": 10,
+          "illustrations": ["dragon1", "dragon2", "dragon3", "dragon4", "dragon5", "dragon6", "dragon7", "dragon8", "dragon9", "dragon10"]
+        }
+      ],
+      "girl": [
+        {
+          "title": "Princess {name} and the Enchanted Forest",
+          "content": "Princess {name} followed glowing footprints into an enchanted forest. There she befriended talking animals and restored color to the flowers with a magical song.",
+          "pages": 10,
+          "illustrations": ["forest1", "forest2", "forest3", "forest4", "forest5", "forest6", "forest7", "forest8", "forest9", "forest10"]
+        }
+      ]
+    },
+    "8-10": {
+      "universal": [
+        {
+          "title": "The Time-Traveling Telescope",
+          "content": "{name} found an old telescope that showed scenes from history. From dinosaurs to ancient kingdoms, each night brought a new adventure through time.",
+          "pages": 12,
+          "illustrations": ["time1", "time2", "time3", "time4", "time5", "time6", "time7", "time8", "time9", "time10", "time11", "time12"]
+        }
+      ],
+      "boy": [
+        {
+          "title": "{name} and the Robot Rebellion",
+          "content": "When the town’s helpful robots started acting strangely, {name} teamed up with Robo-X to uncover a secret code and restore peace to the workshop.",
+          "pages": 12,
+          "illustrations": ["robot1", "robot2", "robot3", "robot4", "robot5", "robot6", "robot7", "robot8", "robot9", "robot10", "robot11", "robot12"]
+        }
+      ],
+      "girl": [
+        {
+          "title": "{name} and the Secret Garden Society",
+          "content": "Curious {name} discovered a hidden club of gardeners who grew magical plants. Together, they nurtured a seed that bloomed into a glowing moonflower.",
+          "pages": 12,
+          "illustrations": ["garden1", "garden2", "garden3", "garden4", "garden5", "garden6", "garden7", "garden8", "garden9", "garden10", "garden11", "garden12"]
+        }
+      ]
+    },
+    "10-12": {
+      "universal": [
+        {
+          "title": "Quest for the Crystal Key",
+          "content": "{name} embarked on a quest across mountains and seas to find the legendary Crystal Key. Along the way, lessons of bravery, friendship, and kindness shone bright.",
+          "pages": 14,
+          "illustrations": ["quest1", "quest2", "quest3", "quest4", "quest5", "quest6", "quest7", "quest8", "quest9", "quest10", "quest11", "quest12", "quest13", "quest14"]
+        }
+      ],
+      "boy": [
+        {
+          "title": "{name} and the Midnight Wizards",
+          "content": "When shadows crept over the kingdom, {name} joined the Midnight Wizards to learn spells of light. Together, they banished darkness and saved the realm.",
+          "pages": 14,
+          "illustrations": ["wizard1", "wizard2", "wizard3", "wizard4", "wizard5", "wizard6", "wizard7", "wizard8", "wizard9", "wizard10", "wizard11", "wizard12", "wizard13", "wizard14"]
+        }
+      ],
+      "girl": [
+        {
+          "title": "{name} and the Phoenix Feather",
+          "content": "Guided by an ancient map, {name} searched for a phoenix feather that grants hope. Through deserts and ruins, {name} proved that courage and compassion lead the way.",
+          "pages": 14,
+          "illustrations": ["phoenix1", "phoenix2", "phoenix3", "phoenix4", "phoenix5", "phoenix6", "phoenix7", "phoenix8", "phoenix9", "phoenix10", "phoenix11", "phoenix12", "phoenix13", "phoenix14"]
+        }
+      ]
+    }
+  }
+}

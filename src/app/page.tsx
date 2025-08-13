@@ -3,6 +3,7 @@
 
 import React, { useState } from 'react';
 import { StoryForm, StoryFormInputs } from '@/components/forms/StoryForm';
+import { compressImage } from '@/lib/imageUtils';
 
 export default function HomePage() {
   const [pdfUrl, setPdfUrl] = useState<string | null>(null);
@@ -17,16 +18,10 @@ export default function HomePage() {
       return;
     }
 
-    // Convert FileList to data URLs
+    // Convert and compress photos
     const photosArray = Array.from(data.photos);
     const dataUrls = await Promise.all(
-      photosArray.map((file) => {
-        return new Promise<string>((resolve) => {
-          const reader = new FileReader();
-          reader.onload = () => resolve(reader.result as string);
-          reader.readAsDataURL(file as Blob);
-        });
-      })
+      photosArray.map((file) => compressImage(file as Blob))
     );
 
     const res = await fetch('/api/create-pdf', {

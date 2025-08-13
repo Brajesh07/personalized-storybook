@@ -66,7 +66,8 @@ export const StoryForm: React.FC<StoryFormProps> = ({ onSubmit }) => {
           {...register('childAge', { valueAsNumber: true })}
           min={0}
           max={12}
-          className="border-2 border-[#7DD3DC] rounded-xl px-4 py-3 text-lg font-medium focus:outline-none focus:ring-2 focus:ring-[#FF9B4A] bg-[#F5F5F5]"
+          placeholder="Enter age (0-12)"
+          className="border-2 border-[#7DD3DC] rounded-xl px-4 py-3 text-lg font-medium focus:outline-none focus:ring-2 focus:ring-[#FF9B4A] bg-[#F5F5F5] placeholder:text-[#2D2D2D] text-[#2D2D2D]"
         />
         {errors.childAge && (
           <p className="text-sm text-red-600 font-semibold">
@@ -82,11 +83,17 @@ export const StoryForm: React.FC<StoryFormProps> = ({ onSubmit }) => {
         </label>
         <select
           {...register('gender')}
-          className="border-2 border-[#7DD3DC] rounded-xl px-4 py-3 text-lg font-medium focus:outline-none focus:ring-2 focus:ring-[#FF9B4A] bg-[#F5F5F5]"
+          className="border-2 border-[#7DD3DC] rounded-xl px-4 py-3 text-lg font-medium focus:outline-none focus:ring-2 focus:ring-[#FF9B4A] bg-[#F5F5F5] text-[#2D2D2D]"
         >
-          <option value="">Select gender</option>
-          <option value="Boy">Boy</option>
-          <option value="Girl">Girl</option>
+          <option value="" className="text-[#2D2D2D]">
+            Select gender
+          </option>
+          <option value="Boy" className="text-[#2D2D2D]">
+            Boy
+          </option>
+          <option value="Girl" className="text-[#2D2D2D]">
+            Girl
+          </option>
         </select>
         {errors.gender && (
           <p className="text-sm text-red-600 font-semibold">
@@ -105,7 +112,7 @@ export const StoryForm: React.FC<StoryFormProps> = ({ onSubmit }) => {
           {...register('photos')}
           accept="image/*"
           multiple
-          className="border-2 border-[#7DD3DC] rounded-xl px-4 py-3 text-lg font-medium bg-[#F5F5F5]"
+          className="border-2 border-[#7DD3DC] rounded-xl px-4 py-3 text-lg font-medium bg-[#F5F5F5] text-[#2D2D2D] file:text-[#2D2D2D]"
         />
         {errors.photos && (
           <p className="text-sm text-red-600 font-semibold">

@@ -2,7 +2,6 @@
 'use client';
 
 import React, { useState } from 'react';
-import { SubmitHandler } from 'react-hook-form';
 import { StoryForm, StoryFormInputs } from '@/components/forms/StoryForm';
 
 export default function HomePage() {
@@ -25,7 +24,7 @@ export default function HomePage() {
         return new Promise<string>((resolve) => {
           const reader = new FileReader();
           reader.onload = () => resolve(reader.result as string);
-          reader.readAsDataURL(file);
+          reader.readAsDataURL(file as Blob);
         });
       })
     );

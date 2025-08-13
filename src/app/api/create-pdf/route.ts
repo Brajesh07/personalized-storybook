@@ -22,7 +22,9 @@ export async function POST(request: Request) {
       ? '4-6'
       : childAge <= 8
       ? '6-8'
-      : '8-12'
+      : childAge <= 10
+      ? '8-10'
+      : '10-12'
 
   // 3. Pick a backup story
   const bucket = storiesByAge[ageKey]
@@ -108,7 +110,7 @@ export async function POST(request: Request) {
 
   // 7. Serialize PDF and return
   const pdfBytes = await pdfDoc.save()
-  return new NextResponse(pdfBytes, {
+  return new NextResponse(Buffer.from(pdfBytes), {
     headers: {
       'Content-Type': 'application/pdf',
       'Content-Disposition': `attachment; filename="${childName}-storybook.pdf"`,

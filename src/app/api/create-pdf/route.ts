@@ -34,8 +34,11 @@ export async function POST(request: Request) {
 
     // Try gender-specific stories first if gender is provided
     if (gender && (gender.toLowerCase() === 'boy' || gender.toLowerCase() === 'girl')) {
-      const genderKey = gender.toLowerCase() as 'boy' | 'girl'
-      pool = bucket[genderKey] || []
+      const genderKey = gender.toLowerCase() as 'boy' | 'girl';
+      if (bucket && Object.prototype.hasOwnProperty.call(bucket, genderKey)) {
+        // eslint-disable-next-line @typescript-eslint/no-explicit-any
+        pool = (bucket as Record<string, any>)[genderKey] || [];
+      }
     }
 
     // Fall back to universal stories
@@ -178,10 +181,16 @@ export async function POST(request: Request) {
     })
 
   } catch (error) {
-    console.error('PDF generation error:', error)
+    console.error('PDF generation error:', error);
+    let message = 'Unknown error';
+    // eslint-disable-next-line @typescript-eslint/no-explicit-any
+    if (error && typeof error === 'object' && 'message' in error && typeof (error as any).message === 'string') {
+      // eslint-disable-next-line @typescript-eslint/no-explicit-any
+      message = (error as any).message;
+    }
     return NextResponse.json(
-      { error: 'Failed to generate PDF', details: error?.message || 'Unknown error' },
+      { error: 'Failed to generate PDF', details: message },
       { status: 500 }
-    )
+    );
   }
 }

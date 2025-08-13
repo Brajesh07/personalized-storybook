@@ -1,0 +1,147 @@
+{
+  "design_system_profile": {
+    "brand_identity": {
+      "name": "KIDOZ",
+      "target_audience": "children_education",
+      "design_philosophy": "playful_professional_child_friendly"
+    },
+    "color_palette": {
+      "primary": {
+        "orange": "#FF9B4A",
+        "turquoise": "#7DD3DC",
+        "description": "Vibrant, child-friendly colors that convey warmth and creativity"
+      },
+      "secondary": {
+        "white": "#FFFFFF",
+        "dark_gray": "#2D2D2D",
+        "light_gray": "#F5F5F5"
+      },
+      "usage_patterns": {
+        "hero_sections": "orange_gradients",
+        "feature_sections": "turquoise_backgrounds",
+        "text": "dark_gray_primary_white_on_colored_backgrounds"
+      }
+    },
+    "typography": {
+      "hierarchy": {
+        "headings": {
+          "style": "bold_sans_serif",
+          "weight": "700-900",
+          "characteristics": "uppercase_for_emphasis",
+          "size_scale": "large_impactful"
+        },
+        "body_text": {
+          "style": "clean_sans_serif",
+          "weight": "400-500",
+          "readability": "high_contrast_child_friendly"
+        },
+        "cta_buttons": {
+          "style": "bold_uppercase",
+          "treatment": "high_contrast"
+        }
+      }
+    },
+    "layout_structure": {
+      "header": {
+        "type": "clean_navigation_bar",
+        "elements": ["logo_left", "centered_navigation_menu", "contact_info_right"],
+        "style": "minimal_professional"
+      },
+      "hero_section": {
+        "layout": "asymmetric_split",
+        "left_side": "content_overlay_on_organic_shape",
+        "right_side": "hero_image_children",
+        "overlay_shape": "organic_rounded_blob",
+        "cta_placement": "prominent_within_overlay"
+      },
+      "feature_sections": {
+        "layout": "three_column_grid",
+        "alignment": "centered",
+        "spacing": "generous_whitespace",
+        "icon_treatment": "circular_backgrounds"
+      }
+    },
+    "visual_elements": {
+      "shapes": {
+        "primary": "organic_blobs_rounded_corners",
+        "secondary": "perfect_circles_for_icons",
+        "characteristics": "soft_friendly_non_geometric"
+      },
+      "icons": {
+        "style": "line_art_minimalist",
+        "treatment": "circular_white_backgrounds",
+        "themes": "education_technology_location"
+      },
+      "illustrations": {
+        "style": "cartoon_character_simple",
+        "integration": "decorative_accent_elements",
+        "purpose": "add_playfulness_maintain_professionalism"
+      }
+    },
+    "spacing_system": {
+      "principles": "generous_whitespace_breathing_room",
+      "section_padding": "large",
+      "element_margins": "consistent_rhythm",
+      "grid_gaps": "spacious"
+    },
+    "interaction_patterns": {
+      "buttons": {
+        "primary_cta": {
+          "style": "rounded_corners_bold_text",
+          "color": "high_contrast",
+          "size": "prominent"
+        }
+      },
+      "hover_states": "subtle_professional",
+      "transitions": "smooth_child_appropriate"
+    },
+    "content_structure": {
+      "messaging_hierarchy": [
+        "welcome_statement",
+        "main_value_proposition",
+        "descriptive_lorem_placeholder",
+        "clear_call_to_action"
+      ],
+      "section_organization": [
+        "hero_with_main_message",
+        "three_feature_highlights",
+        "why_choose_us_benefits"
+      ]
+    },
+    "responsive_behavior": {
+      "breakpoints": "mobile_first_approach",
+      "hero_adaptation": "stack_content_maintain_visual_hierarchy",
+      "grid_behavior": "three_to_one_column_collapse"
+    },
+    "design_principles": {
+      "accessibility": "high_contrast_readable_fonts",
+      "child_psychology": "bright_colors_friendly_shapes_clear_navigation",
+      "trust_building": "professional_layout_clear_contact_information",
+      "conversion_focus": "prominent_cta_buttons_clear_value_propositions"
+    },
+    "component_patterns": {
+      "card_design": "clean_white_backgrounds_subtle_shadows",
+      "section_headers": "centered_large_typography",
+      "feature_presentations": "icon_title_description_vertical_alignment",
+      "social_proof": "integrated_contact_methods"
+    },
+    "brand_voice_visual": {
+      "tone": "friendly_professional_trustworthy",
+      "personality": "approachable_educational_innovative",
+      "visual_metaphors": "growth_learning_community"
+    }
+  },
+  "implementation_guidelines": {
+    "css_frameworks": "bootstrap_or_tailwind_compatible",
+    "design_tools": "figma_sketch_friendly",
+    "development_considerations": {
+      "performance": "optimize_for_mobile_devices",
+      "seo": "semantic_html_structure",
+      "maintenance": "component_based_architecture"
+    }
+  },
+  "usage_instructions": {
+    "for_ai_assistants": "Use this profile to create child-education focused websites with professional credibility, warm color schemes, organic shapes, and clear information hierarchy. Prioritize readability, friendly aesthetics, and trust-building elements.",
+    "key_differentiators": "Balance playful design with professional credibility, use organic shapes instead of harsh geometric forms, maintain generous whitespace, and ensure all elements serve both aesthetic and functional purposes."
+  }
+}

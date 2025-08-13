@@ -4,7 +4,12 @@
       "universal": [
         {
           "title": "Peek-a-Boo Adventure",
-          "content": "Once upon a time, little {name} loved to play peek-a-boo with mommy and daddy. Every time they said \"Where’s {name}?\" {name} would pop out with a giggle!",
+          "content": [
+            "Once upon a time, little {name} loved to play peek-a-boo with mommy and daddy.",
+            "Every morning, {name} would hide behind the big cushions in the living room.",
+            "\"Where's {name}?\" mommy would ask, looking around with a big smile.",
+            "{name} would pop out with the biggest giggle, making everyone laugh with joy!"
+          ],
           "pages": 4,
           "illustrations": ["peek1", "peek2", "peek3", "peek4"]
         }
@@ -12,15 +17,25 @@
       "boy": [
         {
           "title": "Little Boy Blue",
-          "content": "{name} was a brave little boy who loved to help the animals on the farm. He blew his horn gently to call the sheep back home.",
+          "content": [
+            "{name} was a brave little boy who lived on a sunny farm.",
+            "Every day, he would help take care of the fluffy sheep and gentle cows.",
+            "When the sheep wandered too far, {name} would blow his little horn softly.",
+            "The sheep would hear the gentle sound and come running back home safely."
+          ],
           "pages": 4,
           "illustrations": ["boy1", "boy2", "boy3", "boy4"]
         }
       ],
       "girl": [
         {
-          "title": "Mary’s Little Lamb",
-          "content": "{name} had a little lamb whose fleece was white as snow. Wherever {name} went, the lamb was sure to go, following with soft little footsteps.",
+          "title": "Mary's Little Lamb",
+          "content": [
+            "{name} had a little lamb whose fleece was white as fresh snow.",
+            "The lamb loved {name} so much and followed her everywhere she went.",
+            "To school, to the garden, and even when {name} went to visit grandma.",
+            "Everyone in the village loved seeing {name} and her faithful little friend together."
+          ],
           "pages": 4,
           "illustrations": ["girl1", "girl2", "girl3", "girl4"]
         }
@@ -30,7 +45,16 @@
       "universal": [
         {
           "title": "The Three Little Pigs",
-          "content": "Once {name} met three little pigs who needed help building houses. Together they built straw, stick, and brick homes, learning teamwork and perseverance.",
+          "content": [
+            "Once {name} met three little pigs who needed help building their homes.",
+            "The first pig wanted to build with straw, light and easy to carry.",
+            "The second pig chose sticks, stronger than straw but still quite quick.",
+            "The third pig decided on bricks, heavy but very strong and safe.",
+            "{name} helped each pig gather their materials from around the forest.",
+            "Together they worked hard, learning that different choices lead to different results.",
+            "When the wind came, only the brick house stood strong and sturdy.",
+            "The three pigs and {name} celebrated their teamwork with a wonderful feast!"
+          ],
           "pages": 8,
           "illustrations": ["pig1", "pig2", "pig3", "pig4", "pig5", "pig6", "pig7", "pig8"]
         }
@@ -40,7 +64,14 @@
       "universal": [
         {
           "title": "The Magical Paintbrush",
-          "content": "{name} discovered a paintbrush that brought drawings to life. When {name} painted a butterfly, it fluttered right off the page and danced in the garden.",
+          "content": [
+            "{name} found a mysterious old paintbrush in the attic one rainy day.",
+            "When {name} dipped it in paint and drew a butterfly, something magical happened!",
+            "The butterfly fluttered right off the paper and danced around the room.",
+            "{name} painted a flower next, and it bloomed with the sweetest smell.",
+            "Soon the whole room was filled with painted animals and plants coming to life.",
+            "A painted bird sang beautiful songs while painted fish swam through the air."
+          ],
           "pages": 6,
           "illustrations": ["paint1", "paint2", "paint3", "paint4", "paint5", "paint6"]
         }
@@ -48,7 +79,14 @@
       "boy": [
         {
           "title": "Captain {name} and the Sea Monster",
-          "content": "Brave Captain {name} sailed the seven seas. When a mischievous sea monster blocked the way, {name} used clever thinking to calm it with a song.",
+          "content": [
+            "Brave Captain {name} sailed across the deep blue ocean in his sturdy ship.",
+            "The waves were calm and the sun was shining when suddenly, something appeared!",
+            "A huge sea monster rose from the water, blocking the ship's path forward.",
+            "But Captain {name} wasn't scared - he had an idea to make friends instead.",
+            "He began to sing a cheerful sea shanty about friendship and adventure.",
+            "The sea monster loved the song so much that it began to sing along too!"
+          ],
           "pages": 6,
           "illustrations": ["sea1", "sea2", "sea3", "sea4", "sea5", "sea6"]
         }
@@ -56,7 +94,14 @@
       "girl": [
         {
           "title": "{name} and the Flower Fairies",
-          "content": "In a secret meadow, {name} found tiny fairies who tended to flowers. Together, they painted petals in rainbow colors and sang gentle lullabies.",
+          "content": [
+            "In a secret meadow behind the old oak tree, {name} discovered something wonderful.",
+            "Tiny fairies no bigger than her thumb were tending to the most beautiful flowers.",
+            "The fairies wore dresses made of flower petals and had wings like butterfly wings.",
+            "They invited {name} to help them paint the flowers in rainbow colors.",
+            "Together they painted roses red, violets blue, and daisies sunny yellow.",
+            "As the sun set, all the fairies sang a gentle lullaby that made the flowers glow."
+          ],
           "pages": 6,
           "illustrations": ["fairy1", "fairy2", "fairy3", "fairy4", "fairy5", "fairy6"]
         }
@@ -66,15 +111,37 @@
       "universal": [
         {
           "title": "The Lost Star",
-          "content": "One night, {name} spotted a star falling from the sky. On a magical journey, {name} helped the star find its way back home among the constellations.",
+          "content": [
+            "One clear night, {name} was looking up at the twinkling stars in the sky.",
+            "Suddenly, a bright star began to fall, tumbling down toward the earth below.",
+            "The star landed softly in {name}'s backyard, glowing but looking very sad.",
+            "\"I'm lost,\" said the star. \"I fell out of my constellation and can't find my way home.\"",
+            "{name} decided to help and together they began a magical journey through the night.",
+            "They traveled past sleeping clouds and dancing moonbeams high above the world.",
+            "Along the way, they met other friendly stars who gave them directions.",
+            "Finally, they found the star's constellation family, who welcomed their friend home.",
+            "The grateful stars thanked {name} by making the most beautiful light show ever.",
+            "From that night on, whenever {name} looked up, that special star would wink back."
+          ],
           "pages": 10,
           "illustrations": ["star1", "star2", "star3", "star4", "star5", "star6", "star7", "star8", "star9", "star10"]
         }
       ],
       "boy": [
         {
-          "title": "{name} and the Dragon’s Puzzle",
-          "content": "{name} ventured into the dragon’s cave to solve a tricky riddle. With courage and wit, {name} unlocked the puzzle and became a hero of the valley.",
+          "title": "{name} and the Dragon's Puzzle",
+          "content": [
+            "{name} heard about a wise old dragon who lived in a cave on the mountain.",
+            "The dragon had a special puzzle that no one had ever been able to solve.",
+            "Curious and brave, {name} decided to climb the mountain and meet this dragon.",
+            "The dragon was friendly but explained that the puzzle was very tricky indeed.",
+            "\"Solve my riddle,\" said the dragon, \"and you'll earn a special treasure.\"",
+            "{name} listened carefully as the dragon spoke the mysterious riddle aloud.",
+            "Using clever thinking and patience, {name} worked through each clue step by step.",
+            "The answer came suddenly - it was about friendship and kindness, not gold or jewels!",
+            "The dragon smiled widely and declared {name} the wisest person in the whole valley.",
+            "The treasure was the dragon's friendship and the knowledge that wisdom comes from the heart."
+          ],
           "pages": 10,
           "illustrations": ["dragon1", "dragon2", "dragon3", "dragon4", "dragon5", "dragon6", "dragon7", "dragon8", "dragon9", "dragon10"]
         }
@@ -82,7 +149,18 @@
       "girl": [
         {
           "title": "Princess {name} and the Enchanted Forest",
-          "content": "Princess {name} followed glowing footprints into an enchanted forest. There she befriended talking animals and restored color to the flowers with a magical song.",
+          "content": [
+            "Princess {name} noticed strange glowing footprints leading into the dark forest.",
+            "Following her curiosity, she stepped carefully along the mysterious glowing trail.",
+            "Deep in the forest, she discovered that all the flowers had lost their colors.",
+            "A sad rabbit explained that an evil spell had drained all the beauty away.",
+            "Princess {name} remembered the old songs her grandmother had taught her.",
+            "She began to sing a melody about love, hope, and the beauty of nature.",
+            "As her voice rang through the trees, colors slowly began to return to the flowers.",
+            "The forest animals joined in, adding their voices to her magical song.",
+            "Soon the entire forest was more beautiful and colorful than it had ever been before.",
+            "Princess {name} learned that sometimes the most powerful magic comes from a caring heart."
+          ],
           "pages": 10,
           "illustrations": ["forest1", "forest2", "forest3", "forest4", "forest5", "forest6", "forest7", "forest8", "forest9", "forest10"]
         }
@@ -92,7 +170,20 @@
       "universal": [
         {
           "title": "The Time-Traveling Telescope",
-          "content": "{name} found an old telescope that showed scenes from history. From dinosaurs to ancient kingdoms, each night brought a new adventure through time.",
+          "content": [
+            "{name} discovered an old brass telescope in the dusty corner of grandpa's attic.",
+            "When {name} looked through it that night, instead of seeing stars, something amazing happened!",
+            "The telescope showed scenes from long, long ago when dinosaurs roamed the earth.",
+            "The next night, {name} saw ancient pyramids being built by clever Egyptian workers.",
+            "Each evening brought a new adventure through time to explore and discover.",
+            "One night {name} watched medieval knights training in a castle courtyard.",
+            "Another night revealed Viking ships sailing bravely across stormy seas.",
+            "{name} saw the first airplane taking flight and people celebrating in the streets.",
+            "The telescope taught {name} that history is full of brave people doing amazing things.",
+            "Every night became an exciting journey to learn about the wonderful past.",
+            "Soon {name} realized that every day we live becomes part of history too.",
+            "The telescope's greatest lesson was that we are all part of one big, continuing story."
+          ],
           "pages": 12,
           "illustrations": ["time1", "time2", "time3", "time4", "time5", "time6", "time7", "time8", "time9", "time10", "time11", "time12"]
         }
@@ -100,7 +191,20 @@
       "boy": [
         {
           "title": "{name} and the Robot Rebellion",
-          "content": "When the town’s helpful robots started acting strangely, {name} teamed up with Robo-X to uncover a secret code and restore peace to the workshop.",
+          "content": [
+            "In {name}'s town, helpful robots assisted everyone with their daily tasks and chores.",
+            "One morning, {name} noticed that all the robots were acting very strangely indeed.",
+            "Instead of helping, they were walking in circles and beeping in confused patterns.",
+            "The town's people were worried because they depended on the robots for many things.",
+            "{name} decided to investigate and find out what was causing this unusual problem.",
+            "Deep in the robot workshop, {name} met Robo-X, the smartest robot of them all.",
+            "Robo-X explained that someone had mixed up their programming with a scrambled code.",
+            "{name} and Robo-X worked together, carefully checking each line of computer code.",
+            "They discovered that a mischievous cat had walked across the main computer keyboard!",
+            "Working as a team, they rewrote the code and fixed all the confused robots.",
+            "The town celebrated {name} and Robo-X for solving the mystery with teamwork.",
+            "From that day on, {name} and Robo-X became the best of friends and problem-solving partners."
+          ],
           "pages": 12,
           "illustrations": ["robot1", "robot2", "robot3", "robot4", "robot5", "robot6", "robot7", "robot8", "robot9", "robot10", "robot11", "robot12"]
         }
@@ -108,7 +212,20 @@
       "girl": [
         {
           "title": "{name} and the Secret Garden Society",
-          "content": "Curious {name} discovered a hidden club of gardeners who grew magical plants. Together, they nurtured a seed that bloomed into a glowing moonflower.",
+          "content": [
+            "While exploring behind the old library, {name} found a hidden door covered in ivy.",
+            "The door led to a secret garden where a group of children met after school.",
+            "They called themselves the Secret Garden Society and grew the most amazing plants.",
+            "The leader, a girl named Rose, showed {name} flowers that glowed in the dark.",
+            "There were also vegetables that grew in rainbow colors and trees that hummed soft melodies.",
+            "{name} learned that the society had been taking care of magical seeds for years.",
+            "The most special seed was silver and sparkled like a tiny star in Rose's hand.",
+            "Together, the society planted the silver seed in the very center of the garden.",
+            "They watered it with morning dew and sang to it every single day.",
+            "Slowly, a magnificent moonflower grew, blooming only under the light of the full moon.",
+            "When it bloomed, the flower granted one wish to help make the world more beautiful.",
+            "{name} and the society wished for gardens like theirs to grow in every neighborhood."
+          ],
           "pages": 12,
           "illustrations": ["garden1", "garden2", "garden3", "garden4", "garden5", "garden6", "garden7", "garden8", "garden9", "garden10", "garden11", "garden12"]
         }
@@ -118,7 +235,22 @@
       "universal": [
         {
           "title": "Quest for the Crystal Key",
-          "content": "{name} embarked on a quest across mountains and seas to find the legendary Crystal Key. Along the way, lessons of bravery, friendship, and kindness shone bright.",
+          "content": [
+            "{name} found an ancient map in a bottle that had washed up on the shore.",
+            "The map showed the location of the legendary Crystal Key, hidden far away.",
+            "According to the map, the key had the power to unlock doors to new worlds.",
+            "Determined to find it, {name} packed supplies and began the great adventure.",
+            "The journey led through whispering forests where the trees shared ancient secrets.",
+            "Next came the Singing Mountains, where every step created a musical note.",
+            "At the Puzzle River, {name} had to solve riddles to build a bridge across.",
+            "The Desert of Mirrors showed {name} reflections of courage and determination.",
+            "In the Valley of Echoes, {name} learned that kindness creates the most beautiful sounds.",
+            "The Floating Islands required {name} to trust in the power of believing.",
+            "Finally, at the Temple of Light, the Crystal Key waited on a pedestal.",
+            "But the greatest discovery was that the real treasure was the wisdom gained along the way.",
+            "The Crystal Key opened doors, but {name}'s brave heart had opened even more.",
+            "Returning home, {name} shared the adventures and lessons with everyone in the village."
+          ],
           "pages": 14,
           "illustrations": ["quest1", "quest2", "quest3", "quest4", "quest5", "quest6", "quest7", "quest8", "quest9", "quest10", "quest11", "quest12", "quest13", "quest14"]
         }
@@ -126,7 +258,22 @@
       "boy": [
         {
           "title": "{name} and the Midnight Wizards",
-          "content": "When shadows crept over the kingdom, {name} joined the Midnight Wizards to learn spells of light. Together, they banished darkness and saved the realm.",
+          "content": [
+            "Strange shadows began creeping across {name}'s kingdom every night at sunset.",
+            "The shadows made people feel sad and drained all the color from the flowers.",
+            "One night, {name} met three mysterious wizards wearing robes covered in stars.",
+            "They introduced themselves as the Midnight Wizards, protectors of light and hope.",
+            "\"We need your help,\" they said. \"The Shadow King has stolen the Light Crystal.\"",
+            "The wizards taught {name} spells that could create light from kindness and courage.",
+            "Together, they journeyed to the Shadow King's fortress at the edge of the world.",
+            "Using spells of friendship, {name} and the wizards lit their way through the darkness.",
+            "They discovered that the Shadow King was just lonely and had forgotten how to be happy.",
+            "{name} cast a spell of compassion that reminded the Shadow King of joy and laughter.",
+            "The Shadow King's heart melted, and he returned the Light Crystal willingly.",
+            "Light returned to the kingdom, and the Shadow King became a friend instead of an enemy.",
+            "The Midnight Wizards made {name} an honorary member of their magical order.",
+            "{name} learned that the most powerful magic comes from understanding and forgiveness."
+          ],
           "pages": 14,
           "illustrations": ["wizard1", "wizard2", "wizard3", "wizard4", "wizard5", "wizard6", "wizard7", "wizard8", "wizard9", "wizard10", "wizard11", "wizard12", "wizard13", "wizard14"]
         }
@@ -134,7 +281,22 @@
       "girl": [
         {
           "title": "{name} and the Phoenix Feather",
-          "content": "Guided by an ancient map, {name} searched for a phoenix feather that grants hope. Through deserts and ruins, {name} proved that courage and compassion lead the way.",
+          "content": [
+            "An ancient legend spoke of a phoenix feather that could grant hope to the hopeless.",
+            "{name} decided to search for this magical feather to help her sad village.",
+            "The quest began in the Library of Whispers, where books shared their secrets aloud.",
+            "A wise book told {name} that the phoenix lived beyond the Crystal Desert.",
+            "Through scorching days and freezing nights, {name} crossed the endless sandy dunes.",
+            "In the ruins of the Golden City, {name} solved puzzles left by ancient builders.",
+            "Each puzzle taught a lesson about perseverance, kindness, and believing in yourself.",
+            "At the Waterfall of Tears, {name} helped heal the broken hearts of other travelers.",
+            "The Mountain of Trials tested {name}'s courage with challenges that seemed impossible.",
+            "But {name}'s determination and compassion helped overcome every single obstacle.",
+            "At the phoenix's nest, the magnificent bird saw the goodness in {name}'s heart.",
+            "The phoenix freely gave a golden feather, saying true hope comes from within.",
+            "Returning home, {name} discovered the journey itself had already brought hope to the village.",
+            "The phoenix feather now hangs in the town square, reminding everyone that hope never dies."
+          ],
           "pages": 14,
           "illustrations": ["phoenix1", "phoenix2", "phoenix3", "phoenix4", "phoenix5", "phoenix6", "phoenix7", "phoenix8", "phoenix9", "phoenix10", "phoenix11", "phoenix12", "phoenix13", "phoenix14"]
         }
